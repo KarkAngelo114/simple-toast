@@ -36,7 +36,7 @@ The code below is the sample implementation (if you're working with plain HTML):
         function Error() {
             Toast.ShowToast('error', 'This is an error message');
         }
-    <script>
+    </script>
 ```
 Or if you're working with frameworks (eg: ReactJS):
 
