@@ -1,6 +1,6 @@
 {
-  "name": "simple-toast",
-  "version": "1.0.0",
+  "name": "simple-toast-pop-up",
+  "version": "1.0.1",
   "description": "A Simple toast pop up notification for your web-based projects",
   "main": "dist/toast.js",
   "module": "dist/toast.js",
