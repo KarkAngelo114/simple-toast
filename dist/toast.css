@@ -1,0 +1,52 @@
+#toast {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    pointer-events: none;
+}
+
+.toastBar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    overflow: hidden;
+    max-width: 60px;
+    transform: translateY(-120%); 
+    transition:
+        max-width 0.5s ease,
+        transform 0.5s ease;
+    white-space: nowrap;
+}
+
+.toastBar.slide {
+    transform: translateY(0)
+}
+
+.toastBar.expand {
+    max-width: 400px;
+}
+
+.text {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+.text.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.text.hide {
+    opacity: 0;
+}

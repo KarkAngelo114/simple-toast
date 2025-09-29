@@ -1,0 +1,33 @@
+{
+  "name": "simple-toast",
+  "version": "1.0.0",
+  "description": "A Simple toast pop up notification for your web-based projects",
+  "main": "dist/toast.js",
+  "module": "dist/toast.js",
+  "unpkg": "dist/toast.js",
+  "style": "dist/toast.css",
+  "exports": {
+    ".": {
+      "import": "./dist/toast.js",
+      "require": "./dist/toast.js"
+    },
+    "./dist/toast.css": "./dist/toast.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarkAngelo114/simple-toast.git"
+  },
+  "keywords": ["toast", "notifications", "popup", "alert", "vanilla-js"],
+  "author": "Kark Angelo V. Pada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KarkAngelo114/simple-toast/issues"
+  },
+  "homepage": "https://github.com/KarkAngelo114/simple-toast#readme"
+}

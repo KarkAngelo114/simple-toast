@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <script src="./node_modules/simple-toast/dist/toast.js" defer></script>
+        <title>Toast</title>
+    </head>
+    <style>
+        * {
+            user-select: none;
+        }
+        .btn {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <body>
+        <div style = "width:100%; height: auto; box-sizing: border-box; display: flex; justify-content:center; align-items:center; padding: 20%">
+            <div style="padding: 10px; flex-direction: column; justify-content: center; align-items: center;width: 100%; height: auto; box-sizing: border-box">
+                <button class = "btn" onclick="Toast.ShowToast('Success', 'This is a success message')">Success</button>
+                <button class = "btn" onclick="Toast.ShowToast('Info', 'This is an info message')">info</button>
+                <button class = "btn" onclick="Toast.ShowToast('Error', 'This is an error message')">Error</button>
+            </div>
+        </div>
+    </body>
+</html>
