@@ -28,7 +28,7 @@ The code below is the sample implementation (if you're working with plain HTML):
     <button onclick = "Info()">Info</button>
     <button onclick = "Error()">Error</button>
     <script>
-        functio Success() {
+        function Success() {
             Toast.ShowToast('success', 'This is a success message');
         }
 
